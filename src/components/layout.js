@@ -9,6 +9,7 @@ import React from "react"
 import MainMenu from "./MainMenu"
 //import Header from "./header"
 import styled, { createGlobalStyle } from "styled-components"
+import SiteFavicon from "./SiteFavicon"
 
 const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -24,6 +25,7 @@ const LayoutWrapper = styled.div`
 `
 const Layout = ({ children }) => (
   <div>
+    <SiteFavicon />
     <GlobalStyles />
     <MainMenu />
     <LayoutWrapper>{children}</LayoutWrapper>
