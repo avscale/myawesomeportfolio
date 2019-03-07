@@ -11,7 +11,7 @@ export default ({ pageContext }) => (
   <Layout>
     <h1>{pageContext.title}</h1>
     <div>
-      <strong>Website URL:</strong>
+      <strong>Website URL: </strong>
       <a href={pageContext.acf.portfolio_url}>
         {pageContext.acf.portfolio_url}
       </a>
