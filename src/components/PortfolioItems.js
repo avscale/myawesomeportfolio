@@ -31,6 +31,9 @@ const PortfolioItems = () => {
                 featured_media {
                   source_url
                 }
+                acf {
+                  portfolio_url
+                }
               }
             }
           }
